@@ -1,9 +1,9 @@
-function News() {
+function Info() {
   return (
     <section className="body-font items-center justify-center mx-16 my-auto">
       <div className="container mx-auto my-16">
         <h1 className="text-4xl font-medium title-font mb-16 text-purple-700 text-center items-center justify-center">
-          Berita Dikti
+          Pengumuman
         </h1>
 
         <div className="flex flex-col bg-white rounded-xl">
@@ -120,4 +120,4 @@ function News() {
     </section>
   );
 }
-export default News;
+export default Info;

@@ -1,26 +1,26 @@
 import Link from "next/link";
 function Content() {
   return (
-    <section class="body-font items-center mx-16 my-auto">
-      <div class="container mx-auto my-16">
-        <h1 class="text-4xl font-medium title-font mb-16 text-purple-700 text-center items-center justify-center">
+    <section className="body-font items-center mx-16 my-auto">
+      <div className="container mx-auto my-16">
+        <h1 className="text-4xl font-medium title-font mb-16 text-purple-700 text-center items-center justify-center">
           Layanan Dikti
         </h1>
 
-        <div class="flex flex-wrap -m-4 justify-center">
-          <div class="xl:w-1/4 md:w-1/2 p-4">
-            <Link href="https://pddikti.kemdikbud.go.id">
+        <div className="flex flex-wrap -m-4 justify-center">
+          <div className="xl:w-1/4 md:w-1/2 p-4">
+            <Link href="https://pddikti.kemdikbud.go.id/">
               <a target="_blank" rel="noreferrer">
-                <div class="bg-white  rounded-lg border-4 border-transparent hover:border-gray-300">
-                  <h3 class="text-purple-900 text-xl font-medium title-font text-center mb-2">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                  <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     PDDikti
                   </h3>
                   <img
-                    class="h-40 rounded w-auto items-center object-cover object-center mx-auto mb-6"
-                    src="/PDDikti.png"
+                    className="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
+                    src="/PDDIKTI.png"
                     alt="content"
                   />
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s
@@ -44,7 +44,7 @@ function Content() {
                       height="39.5"
                       rx="19.75"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                 </div>
@@ -52,19 +52,19 @@ function Content() {
             </Link>
           </div>
 
-          <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://kampusmerdeka.kemdikbud.go.id/">
               <a target="_blank" rel="noreferrer">
-                <div class="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
-                  <h3 class="text-purple-900 text-xl font-medium title-font text-center mb-2">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                  <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Kampus Merdeka
                   </h3>
                   <img
-                    class="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
+                    className="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
                     src="/KM.png"
                     alt="content"
                   />
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s
@@ -88,7 +88,7 @@ function Content() {
                       height="39.5"
                       rx="19.75"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                 </div>
@@ -96,19 +96,19 @@ function Content() {
             </Link>
           </div>
 
-          <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://kedaireka.id/">
               <a target="_blank" rel="noreferrer">
-                <div class="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
-                  <h3 class="text-purple-900 text-xl font-medium title-font text-center mb-2">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                  <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Kedaireka
                   </h3>
                   <img
-                    class="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
+                    className="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
                     src="/Kedaireka.png"
                     alt="content"
                   />
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s
@@ -132,7 +132,7 @@ function Content() {
                       height="39.5"
                       rx="19.75"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                 </div>
@@ -140,19 +140,19 @@ function Content() {
             </Link>
           </div>
 
-          <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://ijazahln.kemdikbud.go.id/ijazahln/">
               <a target="_blank" rel="noreferrer">
-                <div class="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
-                  <h3 class="text-purple-900 text-xl font-medium title-font text-center mb-2">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                  <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Penyetaraan Ijazah LN
                   </h3>
                   <img
-                    class="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
+                    className="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
                     src="/IjazahLN.png"
                     alt="content"
                   />
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s
@@ -176,7 +176,7 @@ function Content() {
                       height="39.5"
                       rx="19.75"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                 </div>
@@ -184,19 +184,19 @@ function Content() {
             </Link>
           </div>
 
-          <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://ijazah.kemdikbud.go.id/">
               <a target="_blank" rel="noreferrer">
-                <div class="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
-                  <h3 class="text-purple-900 text-xl font-medium title-font text-center mb-2">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                  <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     SIVIL
                   </h3>
                   <img
-                    class="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
+                    className="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
                     src="/SIVIL.png"
                     alt="content"
                   />
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s
@@ -220,7 +220,7 @@ function Content() {
                       height="39.5"
                       rx="19.75"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                 </div>
@@ -228,19 +228,19 @@ function Content() {
             </Link>
           </div>
 
-          <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://pak.kemdikbud.go.id/portalv2/selancar-pak/">
               <a target="_blank" rel="noreferrer">
-                <div class="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
-                  <h3 class="text-purple-900 text-xl font-medium title-font text-center mb-2">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                  <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Selancar PAK
                   </h3>
                   <img
-                    class="h-40 rounded w-full object-cover object-center mx-auto mb-6"
+                    className="h-40 rounded w-full object-cover object-center mx-auto mb-6"
                     src="/SelancarPAK.png"
                     alt="content"
                   />
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s
@@ -264,7 +264,7 @@ function Content() {
                       height="39.5"
                       rx="19.75"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                 </div>
@@ -272,19 +272,19 @@ function Content() {
             </Link>
           </div>
 
-          <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="http://silemkerma.kemdikbud.go.id/">
               <a target="_blank" rel="noreferrer">
-                <div class="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
-                  <h3 class="text-purple-900 text-xl font-medium title-font text-center mb-2">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                  <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Silemkerma
                   </h3>
                   <img
-                    class="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
+                    className="h-40 rounded w-auto object-cover object-center mx-auto mb-6"
                     src="/logo-kemendikbud.png"
                     alt="content"
                   />
-                  <p class="leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text ever since the 1500s
@@ -308,7 +308,7 @@ function Content() {
                       height="39.5"
                       rx="19.75"
                       stroke="black"
-                      stroke-width="2"
+                      strokeWidth="2"
                     />
                   </svg>
                 </div>
