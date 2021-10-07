@@ -5,12 +5,14 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="body-font bg-blue-500 h-22">
+    <header className="sticky top-0 z-50 body-font bg-blue-500 h-22">
       <div className="container flex flex-wrap flex-col md:flex-row items-center">
         <img className="mx-11 py-3.5" src="/Logoditjen.png" />
 
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 text-lg  hover:text-black text-active ">Beranda</a>
+        <Link href="/">
+          <a className="mr-5 text-lg hover:text-black text-active ">Beranda</a>
+          </Link>
           <Menu as="div" className="relative inline-block text-left z-10 ">
             <div className="mr-2">
               <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-lg text-white rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
@@ -238,8 +240,9 @@ function Header() {
               </Menu.Items>
             </Transition>
           </Menu>
-          <a className="mr-5 text-lg text-white hover:text-black">Tentang</a>
-          <a className="mr-5 text-lg text-white hover:text-black">Profil</a>
+          <Link href="/faqpage">
+          <a className="mr-5 text-lg text-white hover:text-black">FAQ</a>
+          </Link>
         </nav>
       </div>
     </header>

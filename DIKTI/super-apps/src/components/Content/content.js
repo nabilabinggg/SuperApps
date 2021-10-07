@@ -11,7 +11,7 @@ function Content() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://pddikti.kemdikbud.go.id/">
               <a target="_blank" rel="noreferrer">
-                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent shadow-lg hover:border-gray-300">
                   <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     PDDikti
                   </h3>
@@ -55,7 +55,7 @@ function Content() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://kampusmerdeka.kemdikbud.go.id/">
               <a target="_blank" rel="noreferrer">
-                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent shadow-lg hover:border-gray-300">
                   <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Kampus Merdeka
                   </h3>
@@ -99,7 +99,7 @@ function Content() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://kedaireka.id/">
               <a target="_blank" rel="noreferrer">
-                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent shadow-lg hover:border-gray-300">
                   <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Kedaireka
                   </h3>
@@ -143,7 +143,7 @@ function Content() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://ijazahln.kemdikbud.go.id/ijazahln/">
               <a target="_blank" rel="noreferrer">
-                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent shadow-lg  hover:border-gray-300">
                   <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Penyetaraan Ijazah LN
                   </h3>
@@ -187,7 +187,7 @@ function Content() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://ijazah.kemdikbud.go.id/">
               <a target="_blank" rel="noreferrer">
-                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent shadow-lg  hover:border-gray-300">
                   <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     SIVIL
                   </h3>
@@ -231,7 +231,7 @@ function Content() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="https://pak.kemdikbud.go.id/portalv2/selancar-pak/">
               <a target="_blank" rel="noreferrer">
-                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent shadow-lg hover:border-gray-300">
                   <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Selancar PAK
                   </h3>
@@ -275,7 +275,7 @@ function Content() {
           <div className="xl:w-1/4 md:w-1/2 p-4">
             <Link href="http://silemkerma.kemdikbud.go.id/">
               <a target="_blank" rel="noreferrer">
-                <div className="bg-white p-6 rounded-lg border-4 border-transparent hover:border-gray-300">
+                <div className="bg-white p-6 rounded-lg border-4 border-transparent shadow-lg hover:border-gray-300">
                   <h3 className="text-purple-900 text-xl font-medium title-font text-center mb-2">
                     Silemkerma
                   </h3>
