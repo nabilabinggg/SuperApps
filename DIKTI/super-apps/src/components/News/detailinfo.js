@@ -28,7 +28,7 @@ function DetailInfo(){
                 </div>
 
                 <div className="flex flex-col md:flex-row">
-                    <div className="grid grid-row-4 grid-flow-col gap-4">
+                    <div className="grid grid-row-4 grid-flow-col gap-6">
 
                         {/* SLIDER */}
                         <div className="relative row-span-4 col-span-3 object-cover object-center h-full w-full">
@@ -49,24 +49,19 @@ function DetailInfo(){
 
                             {/* <Progress color="gray" value="50" percentage={false} /> */}
 
-                            <div className="card shadow-lg rounded-xl absolute z-10 top-72 left-16 bg-white w-full max-w-xl px-10 py-8">
+                            <div className="card shadow-lg rounded-xl absolute z-10 bottom-32 left-16 bg-white w-full max-w-xl px-10 py-8">
                                 <div className="card-body text-2xl title-font font-medium">
                                     <h3>Tulisan ini adalah judul berita untuk aplikasi superpp yang cukup...</h3>
                                 </div>
                             </div>
-                            <div className="mt-40">
-                                <svg width="751" height="7" viewBox="0 0 751 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <line y1="3.5" x2="751" y2="3.5" stroke="#F2EEF3" stroke-width="7" />
-                                </svg>
-                            </div>
                         </div>
 
                         {/*PENGUMUMAN TERBARU*/}
-                        <div className="text-4xl font-medium title-font text-black ml-4">
+                        <div className="text-4xl font-medium title-font text-black ml-16 mb-2">
                             Pengumuman Terbaru
                         </div>
-                        <div className="flex ml-4">
-                            <div className="mt-4 mx-auto w-72 text-gray-500 mr-10">
+                        <div className="flex ml-16">
+                            <div className="mx-auto w-72 text-gray-500 mr-2">
                             <p className="mb-1 mx-auto text-gray-500">20 September 2021</p>
                                 <h2 className="text-gray-900 title-font text-lg font-medium">
                                 Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...
@@ -78,8 +73,8 @@ function DetailInfo(){
                             </a>
                         </div>
 
-                        <div className="flex ml-4">
-                            <div className="mt-4 mx-auto w-72 text-gray-500 mr-10">
+                        <div className="flex ml-16">
+                            <div className="mx-auto w-72 text-gray-500 mr-2">
                             <p className="mb-1 mx-auto text-gray-500">20 September 2021</p>
                                 <h2 className="text-gray-900 title-font text-lg font-medium">
                                 Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...
@@ -91,8 +86,8 @@ function DetailInfo(){
                             </a>
                         </div>
 
-                        <div className="flex ml-4">
-                            <div className="mt-4 mx-auto w-72 text-gray-500 mr-10">
+                        <div className="flex ml-16">
+                            <div className="mx-auto w-72 text-gray-500 mr-2">
                                 <p className="mb-1 mx-auto text-gray-500">20 September 2021</p>
                                 <h2 className="text-gray-900 title-font text-lg font-medium">
                                 Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...

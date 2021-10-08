@@ -11,7 +11,7 @@ function Header() {
 
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
         <Link href="/">
-          <a className="mr-5 text-lg hover:text-black text-active ">Beranda</a>
+          <a className="mr-5 text-lg hover:text-black text-active px-4 py-2">Beranda</a>
           </Link>
           <Menu as="div" className="relative inline-block text-left z-10 ">
             <div className="mr-2">
@@ -241,7 +241,13 @@ function Header() {
             </Transition>
           </Menu>
           <Link href="/faqpage">
-          <a className="mr-5 text-lg text-white hover:text-black">FAQ</a>
+          <a className="mr-5 text-lg text-white px-4 py-2 hover:text-black">Tentang</a>
+          </Link>
+          <Link href="/infopage">
+          <a className="mr-5 text-lg text-white px-4 py-2 hover:text-black">Pengumuman</a>
+          </Link>
+          <Link href="/newspage">
+          <a className="mr-5 text-lg text-white px-4 py-2 hover:text-black">Berita</a>
           </Link>
         </nav>
       </div>
