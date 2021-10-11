@@ -20,7 +20,8 @@ function Info() {
               <div className="mt-4 mx-auto max-w-2xl w-80">
                 <p className="mb-1 text-gray-500">20 September 2021</p>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...
+                  Berikut adalah judul pengu muman yang cukup panjan g hingga
+                  mengambil 3 ba...
                 </h2>
                 <p className="mt-1 text-gray-500">Pembelajaran dan mahasiswa</p>
               </div>
@@ -36,7 +37,8 @@ function Info() {
               <div className="mt-4 mx-auto max-w-2xl w-80">
                 <p className="mb-1 text-gray-500">20 September 2021</p>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...
+                  Berikut adalah judul pengu muman yang cukup panjan g hingga
+                  mengambil 3 ba...
                 </h2>
                 <p className="mt-1 text-gray-500">Pembelajaran dan mahasiswa</p>
               </div>
@@ -52,7 +54,8 @@ function Info() {
               <div className="mt-4 mx-auto max-w-2xl w-80">
                 <p className="mb-1 text-gray-500">20 September 2021</p>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...
+                  Berikut adalah judul pengu muman yang cukup panjan g hingga
+                  mengambil 3 ba...
                 </h2>
                 <p className="mt-1 text-gray-500">Pembelajaran dan mahasiswa</p>
               </div>
@@ -68,7 +71,8 @@ function Info() {
               <div className="mt-4 mx-auto max-w-2xl w-80">
                 <p className="mb-1 text-gray-500">20 September 2021</p>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...
+                  Berikut adalah judul pengu muman yang cukup panjan g hingga
+                  mengambil 3 ba...
                 </h2>
                 <p className="mt-1 text-gray-500">Pembelajaran dan mahasiswa</p>
               </div>
@@ -84,7 +88,8 @@ function Info() {
               <div className="mt-4 mx-auto max-w-2xl w-80">
                 <p className="mb-1 text-gray-500">20 September 2021</p>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...
+                  Berikut adalah judul pengu muman yang cukup panjan g hingga
+                  mengambil 3 ba...
                 </h2>
                 <p className="mt-1 text-gray-500">Pembelajaran dan mahasiswa</p>
               </div>
@@ -100,7 +105,8 @@ function Info() {
               <div className="mt-4 mx-auto max-w-2xl w-80">
                 <p className="mb-1 text-gray-500">20 September 2021</p>
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Berikut adalah judul pengu muman yang cukup panjan g hingga mengambil 3 ba...
+                  Berikut adalah judul pengu muman yang cukup panjan g hingga
+                  mengambil 3 ba...
                 </h2>
                 <p className="mt-1 text-gray-500">Pembelajaran dan mahasiswa</p>
               </div>
@@ -112,7 +118,6 @@ function Info() {
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </button>
           </Link>
-
         </div>
       </div>
     </section>

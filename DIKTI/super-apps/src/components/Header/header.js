@@ -1,21 +1,60 @@
+import Link from "next/link";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-import Link from "next/link";
+import { defaults } from "autoprefixer";
 
 function Header() {
-  return (
-    <header className="sticky top-0 z-50 body-font bg-blue-500 h-22">
-      <div className="container flex flex-wrap flex-col md:flex-row items-center">
-        <img className="mx-11 py-3.5" src="/Logoditjen.png" />
+  const [active, setActive] = useState(false);
 
-        <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-        <Link href="/">
-          <a className="mr-5 text-lg hover:text-black text-active px-4 py-2">Beranda</a>
+  const handleClick = () => {
+    setActive(!active);
+  };
+
+  return (
+    <nav className="flex items-center flex-wrap bg-blue-500 p-3 ">
+      <Link href="/">
+        <a className="inline-flex items-center mx-11 ">
+          <img src="/Logoditjen.png" className="mx-auto" alt="" />
+        </a>
+      </Link>
+      <button
+        className=" inline-flex p-3 hover:bg-yellow-500 rounded lg:hidden text-white ml-auto hover:text-white outline-none"
+        onClick={handleClick}
+      >
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+      {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
+      <div
+        className={`${
+          active ? "" : "hidden"
+        }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+      >
+        <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
+          <Link href="/">
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-semibold text-lg items-center justify-center hover:bg-yellow-500 hover:text-white ">
+              Beranda
+            </a>
           </Link>
-          <Menu as="div" className="relative inline-block text-left z-10 ">
+          <Menu
+            as="div"
+            className="relative inline-block hover:bg-yellow-500 hover:text-white rounded text-left z-10 "
+          >
             <div className="mr-2">
-              <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-lg text-white rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+              <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-lg font-semibold  text-white rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                 Layanan
                 <ChevronDownIcon
                   className="w-5 h-5 ml-2 -mr-1 text-violet-200 hover:text-violet-100"
@@ -46,16 +85,16 @@ function Header() {
                             } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                           >
                             {/* {active ? (
-                          <EditActiveIcon
-                            className="w-5 h-5 mr-2"
-                            aria-hidden="true"
-                          />
-                        ) : (
-                          <EditInactiveIcon
-                            className="w-5 h-5 mr-2"
-                            aria-hidden="true"
-                          />
-                        )} */}
+                  <EditActiveIcon
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                  />
+                ) : (
+                  <EditInactiveIcon
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                  />
+                )} */}
                             PDDikti
                           </button>
                         </a>
@@ -74,16 +113,16 @@ function Header() {
                             } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                           >
                             {/* {active ? (
-                          <DuplicateActiveIcon
-                            className="w-5 h-5 mr-2"
-                            aria-hidden="true"
-                          />
-                        ) : (
-                          <DuplicateInactiveIcon
-                            className="w-5 h-5 mr-2"
-                            aria-hidden="true"
-                          />
-                        )} */}
+                  <DuplicateActiveIcon
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                  />
+                ) : (
+                  <DuplicateInactiveIcon
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                  />
+                )} */}
                             Kampus Merdeka
                           </button>
                         </a>
@@ -104,16 +143,16 @@ function Header() {
                             } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                           >
                             {/* {active ? (
-                          <ArchiveActiveIcon
-                            className="w-5 h-5 mr-2"
-                            aria-hidden="true"
-                          />
-                        ) : (
-                          <ArchiveInactiveIcon
-                            className="w-5 h-5 mr-2"
-                            aria-hidden="true"
-                          />
-                        )} */}
+                  <ArchiveActiveIcon
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                  />
+                ) : (
+                  <ArchiveInactiveIcon
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                  />
+                )} */}
                             Kedaireka
                           </button>
                         </a>
@@ -132,16 +171,16 @@ function Header() {
                             } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                           >
                             {/* {active ? (
-                          <MoveActiveIcon
-                            className="w-5 h-5 mr-2"
-                            aria-hidden="true"
-                          />
-                        ) : (
-                          <MoveInactiveIcon
-                            className="w-5 h-5 mr-2"
-                            aria-hidden="true"
-                          />
-                        )} */}
+                  <MoveActiveIcon
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                  />
+                ) : (
+                  <MoveInactiveIcon
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                  />
+                )} */}
                             Ijazah LN
                           </button>
                         </a>
@@ -162,16 +201,16 @@ function Header() {
                             } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                           >
                             {/* {active ? (
-                            <DeleteActiveIcon
-                                className="w-5 h-5 mr-2 text-violet-400"
-                                aria-hidden="true"
-                            />
-                            ) : (
-                            <DeleteInactiveIcon
-                                className="w-5 h-5 mr-2 text-violet-400"
-                                aria-hidden="true"
-                            />
-                            )} */}
+                    <DeleteActiveIcon
+                        className="w-5 h-5 mr-2 text-violet-400"
+                        aria-hidden="true"
+                    />
+                    ) : (
+                    <DeleteInactiveIcon
+                        className="w-5 h-5 mr-2 text-violet-400"
+                        aria-hidden="true"
+                    />
+                    )} */}
                             SIVIL
                           </button>
                         </a>
@@ -190,16 +229,16 @@ function Header() {
                             } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                           >
                             {/* {active ? (
-                            <DeleteActiveIcon
-                                className="w-5 h-5 mr-2 text-violet-400"
-                                aria-hidden="true"
-                            />
-                            ) : (
-                            <DeleteInactiveIcon
-                                className="w-5 h-5 mr-2 text-violet-400"
-                                aria-hidden="true"
-                            />
-                            )} */}
+                    <DeleteActiveIcon
+                        className="w-5 h-5 mr-2 text-violet-400"
+                        aria-hidden="true"
+                    />
+                    ) : (
+                    <DeleteInactiveIcon
+                        className="w-5 h-5 mr-2 text-violet-400"
+                        aria-hidden="true"
+                    />
+                    )} */}
                             Selancar PAK
                           </button>
                         </a>
@@ -220,16 +259,16 @@ function Header() {
                             } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                           >
                             {/* {active ? (
-                            <DeleteActiveIcon
-                                className="w-5 h-5 mr-2 text-violet-400"
-                                aria-hidden="true"
-                            />
-                            ) : (
-                            <DeleteInactiveIcon
-                                className="w-5 h-5 mr-2 text-violet-400"
-                                aria-hidden="true"
-                            />
-                            )} */}
+                    <DeleteActiveIcon
+                        className="w-5 h-5 mr-2 text-violet-400"
+                        aria-hidden="true"
+                    />
+                    ) : (
+                    <DeleteInactiveIcon
+                        className="w-5 h-5 mr-2 text-violet-400"
+                        aria-hidden="true"
+                    />
+                    )} */}
                             Silemkerma
                           </button>
                         </a>
@@ -240,18 +279,25 @@ function Header() {
               </Menu.Items>
             </Transition>
           </Menu>
+
           <Link href="/faqpage">
-          <a className="mr-5 text-lg text-white px-4 py-2 hover:text-black">Tentang</a>
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-semibold text-lg items-center justify-center hover:bg-yellow-500 hover:text-white">
+              Tentang
+            </a>
           </Link>
           <Link href="/infopage">
-          <a className="mr-5 text-lg text-white px-4 py-2 hover:text-black">Pengumuman</a>
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-semibold text-lg items-center justify-center hover:bg-yellow-500 hover:text-white">
+              Pengumuman
+            </a>
           </Link>
           <Link href="/newspage">
-          <a className="mr-5 text-lg text-white px-4 py-2 hover:text-black">Berita</a>
+            <a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-semibold text-lg items-center justify-center hover:bg-yellow-500 hover:text-white">
+              Berita
+            </a>
           </Link>
-        </nav>
+        </div>
       </div>
-    </header>
+    </nav>
   );
 }
 export default Header;
